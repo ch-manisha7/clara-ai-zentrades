@@ -124,4 +124,5 @@ Onboarding Transcript
 | Bonus | +10 | Dashboard with 5 pages, download buttons, diff viewer |
 
 Live Demo:
-https://clara-ai-zentrades.streamlit.app
+https://clara-ai-zentrades-dl43xuga9g6vstzl9fcwyy.streamlit.app/
+
