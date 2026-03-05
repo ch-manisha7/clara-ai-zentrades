@@ -1,0 +1,47 @@
+ONBOARDING CALL TRANSCRIPT - Account 004 - Cascade Sprinkler Systems
+Date: 2024-02-12
+Duration: 38 minutes
+
+[Onboarding Specialist]: Welcome to onboarding, Tom. Let's get Cascade fully configured.
+
+[Client - Tom Aguilar, Service Director]: Perfect. I want to make sure the ServiceTrade rule is crystal clear.
+
+[Onboarding Specialist]: We'll get to that. Business hours first — 7am to 5pm, Monday-Friday, Pacific time?
+
+[Client]: Correct. Pacific time. We don't have weekend coverage.
+
+[Onboarding Specialist]: Main phone number?
+
+[Client]: 206-555-0178.
+
+[Onboarding Specialist]: Emergency routing. You mentioned a phone tree but hadn't formalized timeouts.
+
+[Client]: Here's the confirmed sequence. First, call the main office at 206-555-0178. If no answer within 30 seconds, call our service manager Kevin Walsh at 206-555-0341. If Kevin doesn't answer within 45 seconds, call our backup tech, Priya Nair, at 206-555-0492. If Priya doesn't answer within 45 seconds, tell the caller we have dispatched a technician and they will be contacted within 20 minutes.
+
+[Onboarding Specialist]: Emergency definitions?
+
+[Client]: Active water discharge from any sprinkler head — that's the main one. Also: fire alarm activation tied to our monitored systems, a system that has been manually impaired, any visible smoke or fire reported at a customer site, and a system where the water supply has been shut off creating an unprotected building.
+
+[Onboarding Specialist]: Non-emergency after hours?
+
+[Client]: For inspection scheduling, permit questions, billing — collect name, phone, property address, and a description of the need. Confirm callback next business day.
+
+[Onboarding Specialist]: Now — ServiceTrade. The critical constraint.
+
+[Client]: Absolutely do not create sprinkler jobs automatically in ServiceTrade. Any call related to sprinkler systems — emergency or not — must result in a note logged to our shared Google Sheet for manual review. The sheet is managed by our office coordinator. Do NOT create a ServiceTrade job. For other service types like extinguisher inspections, we don't mind if you create those.
+
+[Onboarding Specialist]: So to confirm: sprinklers → Google Sheet log only, no ServiceTrade. Extinguisher → ServiceTrade OK.
+
+[Client]: Exactly. That's the rule.
+
+[Onboarding Specialist]: Transfer failure message?
+
+[Client]: "I was unable to reach our on-call team. I have logged your emergency and a Cascade technician will contact you within 20 minutes. If there is active water discharge, locate the main shut-off valve if it is safe to do so."
+
+[Onboarding Specialist]: Office address is 3300 Airport Way South, Seattle, WA 98134?
+
+[Client]: Confirmed.
+
+[Onboarding Specialist]: Any additional constraints?
+
+[Client]: Yes. Never discuss our monitoring contract pricing. Those inquiries go to our sales team only. Also, for any call from a property with an active inspection deficiency, flag it as high priority.

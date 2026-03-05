@@ -1,0 +1,57 @@
+{
+    "phone_number": {
+        "old": "",
+        "new": "206-555-0178",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "services_supported": {
+        "old": [
+            "Fire Sprinkler",
+            "Fire Alarm",
+            "Inspection"
+        ],
+        "new": [
+            "Fire Sprinkler",
+            "Fire Alarm",
+            "Inspection",
+            "Monitoring",
+            "Fire Extinguisher"
+        ],
+        "confidence_change": "keyword_detected -> confirmed",
+        "reason": "onboarding update"
+    },
+    "emergency_definition": {
+        "old": [],
+        "new": [
+            "Fire alarm triggered and cannot be silenced",
+            "Visible smoke reported"
+        ],
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "after_hours_flow_summary": {
+        "old": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "new": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 206-555-0178 with 30s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence_change": "generated -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.secondary_number": {
+        "old": "",
+        "new": "206-555-0341",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.primary_number": {
+        "old": "",
+        "new": "206-555-0178",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.timeout_seconds": {
+        "old": "",
+        "new": "30",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    }
+}

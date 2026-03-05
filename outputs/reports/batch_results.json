@@ -1,0 +1,67 @@
+[
+    {
+        "account_id": "account_001",
+        "company_name": "Patriot Fire Protection",
+        "status": "success",
+        "has_v2": true,
+        "v1_score": 65.0,
+        "v2_score": 85.0,
+        "warnings": [
+            "Transfer failure message not defined"
+        ],
+        "errors": [],
+        "change_count": 7
+    },
+    {
+        "account_id": "account_002",
+        "company_name": "Arctic Air HVAC Solutions",
+        "status": "success",
+        "has_v2": true,
+        "v1_score": 60.0,
+        "v2_score": 85.0,
+        "warnings": [
+            "Transfer failure message not defined"
+        ],
+        "errors": [],
+        "change_count": 7
+    },
+    {
+        "account_id": "account_003",
+        "company_name": "PowerGrid Electrical Contractors",
+        "status": "success",
+        "has_v2": true,
+        "v1_score": 75.0,
+        "v2_score": 85.0,
+        "warnings": [
+            "Transfer failure message not defined"
+        ],
+        "errors": [],
+        "change_count": 5
+    },
+    {
+        "account_id": "account_004",
+        "company_name": "Cascade Sprinkler Systems",
+        "status": "success",
+        "has_v2": true,
+        "v1_score": 60.0,
+        "v2_score": 85.0,
+        "warnings": [
+            "Transfer failure message not defined"
+        ],
+        "errors": [],
+        "change_count": 7
+    },
+    {
+        "account_id": "account_005",
+        "company_name": "Sentinel Alarm Services",
+        "status": "success",
+        "has_v2": true,
+        "v1_score": 70.0,
+        "v2_score": 85.0,
+        "warnings": [
+            "Transfer failure message not defined"
+        ],
+        "errors": [],
+        "change_count": 6
+    }
+]

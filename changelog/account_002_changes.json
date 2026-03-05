@@ -1,0 +1,53 @@
+{
+    "phone_number": {
+        "old": "",
+        "new": "214-555-0094",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "emergency_definition": {
+        "old": [
+            "No heat",
+            "No air conditioning",
+            "Refrigerant leak detected"
+        ],
+        "new": [
+            "No heat",
+            "No air conditioning",
+            "Refrigerant leak detected",
+            "Carbon monoxide alarm triggered"
+        ],
+        "confidence_change": "keyword_detected -> confirmed",
+        "reason": "onboarding update"
+    },
+    "after_hours_flow_summary": {
+        "old": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "new": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 214-555-0331 with 60s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence_change": "generated -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.secondary_number": {
+        "old": "",
+        "new": "214-555-0448",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.primary_number": {
+        "old": "",
+        "new": "214-555-0331",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.timeout_seconds": {
+        "old": "",
+        "new": "60",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "non_emergency_routing_rules": {
+        "old": "",
+        "new": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    }
+}

@@ -1,0 +1,43 @@
+DEMO CALL TRANSCRIPT - Account 001
+Date: 2024-01-15
+Duration: 18 minutes
+
+[Sales Rep]: Thanks for taking the time today. Can you tell me a bit about your business?
+
+[Client]: Sure, we're Patriot Fire Protection. We've been in the fire protection business for about 22 years. We handle sprinkler systems, fire alarm installation and monitoring, extinguisher services, and we do a lot of inspections for commercial clients.
+
+[Sales Rep]: Great. How many calls would you say you receive on a typical day?
+
+[Client]: On a busy day maybe 40-50 calls. A lot of them are scheduling calls for routine inspections, but we also get emergency calls. When a sprinkler line bursts or a fire alarm goes off, those are time-sensitive situations.
+
+[Sales Rep]: And when do those emergency calls come in?
+
+[Client]: Honestly all times. We're officially open 8am to 5pm Monday through Friday, Eastern time. But emergencies don't follow business hours, so we have an on-call technician who handles after-hours emergencies.
+
+[Sales Rep]: How does that currently work? The after-hours routing?
+
+[Client]: Right now our office manager manually forwards the main line to the on-call tech's cell phone after 5. It's clunky. Sometimes she forgets, or there's a gap. We've missed some emergency calls that way.
+
+[Sales Rep]: What would you consider a true emergency for your business?
+
+[Client]: A sprinkler system that's actively flowing water, a fire alarm that's triggered and won't reset, or anything that poses an immediate life-safety risk. Inspection scheduling, equipment questions, those can wait until business hours.
+
+[Sales Rep]: Do you use any field service software? Like ServiceTrade or something similar?
+
+[Client]: Yeah, we're on ServiceTrade. Our techs log everything there. We'd want any jobs created to flow into ServiceTrade.
+
+[Sales Rep]: And where are you based out of?
+
+[Client]: We're in Charlotte, North Carolina. Our main office is at 4821 Prosperity Church Road.
+
+[Sales Rep]: This has been really helpful. Let me show you how Clara would handle one of those after-hours emergency calls...
+
+[Demo continues with agent interaction]
+
+[Client]: That's impressive. The agent knew to ask for the address right away for the emergency call. That's exactly what our techs need to know.
+
+[Sales Rep]: Exactly. And it would attempt to transfer to your on-call tech, and if that fails, it logs everything and sends a dispatch notification.
+
+[Client]: I like that. What about for regular business hours? Can it just take messages if we're on another call?
+
+[Sales Rep]: It can do much more than that — it can actually handle the full intake and transfer the caller to the right person.

@@ -1,0 +1,51 @@
+{
+    "phone_number": {
+        "old": "",
+        "new": "704-555-0183",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "emergency_definition": {
+        "old": [
+            "Active sprinkler water discharge",
+            "Fire alarm triggered and cannot be silenced"
+        ],
+        "new": [
+            "Active sprinkler water discharge",
+            "Fire alarm triggered and cannot be silenced",
+            "Visible smoke reported"
+        ],
+        "confidence_change": "keyword_detected -> confirmed",
+        "reason": "onboarding update"
+    },
+    "after_hours_flow_summary": {
+        "old": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "new": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 704-555-0183 with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence_change": "generated -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.secondary_number": {
+        "old": "",
+        "new": "704-555-0217",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.primary_number": {
+        "old": "",
+        "new": "704-555-0183",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.timeout_seconds": {
+        "old": "",
+        "new": "45",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "company_name": {
+        "old": "Patriot Fire Protection",
+        "new": "Patriot Fire",
+        "confidence_change": "extracted -> confirmed",
+        "reason": "onboarding update"
+    }
+}

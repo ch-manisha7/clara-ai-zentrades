@@ -1,0 +1,47 @@
+ONBOARDING CALL TRANSCRIPT - Account 002 - Arctic Air HVAC Solutions
+Date: 2024-02-08
+Duration: 40 minutes
+
+[Onboarding Specialist]: Let's get Arctic Air fully configured. Is this still the best contact, Marcus?
+
+[Client - Marcus Webb, Owner]: Yes, I'm the best contact for configuration decisions.
+
+[Onboarding Specialist]: Let's confirm hours. You said 7am to 4:30pm Monday-Friday and 8am-noon Saturday, Central time?
+
+[Client]: Actually let me correct that. We changed our Saturday hours. We're now 8am to 2pm on Saturdays. And Friday we actually close at 4pm, not 4:30. Monday through Thursday is 7am to 4:30pm. All Central Standard Time.
+
+[Onboarding Specialist]: Good catch. Updated. What number do you want Clara to field calls on?
+
+[Client]: 214-555-0094. That's our main business line.
+
+[Onboarding Specialist]: Emergency definitions — you mentioned no heat, no AC, burning smells. Let's be specific.
+
+[Client]: Emergency situations: no heat when outdoor temperature is below 40°F, no AC when outdoor temperature is above 95°F, any system making grinding or burning smells indicating mechanical failure, confirmed refrigerant leak, or carbon monoxide alarm triggered. Customer perception also matters — if they say it's an emergency, treat it as one.
+
+[Onboarding Specialist]: And emergency routing?
+
+[Client]: Step one: call Mike Torres at 214-555-0331. If no answer within 60 seconds, call Donna Reyes at 214-555-0448. If Donna also doesn't answer within 60 seconds, send an SMS dispatch alert to both of them and tell the caller a tech will reach them within 30 minutes.
+
+[Onboarding Specialist]: What system do you want the dispatch alert sent to?
+
+[Client]: ServiceTitan. Create an emergency job in ServiceTitan immediately when an emergency call comes in. Mark it priority level "Urgent."
+
+[Onboarding Specialist]: What about non-emergency after-hours?
+
+[Client]: Collect name, phone, service type — cooling, heating, or other — and address. Confirm we'll call them back next business day morning. No emergency transfer.
+
+[Onboarding Specialist]: ServiceTitan constraints?
+
+[Client]: No constraints on job creation. Create all jobs automatically. But do not discuss pricing, warranties, or offer estimates. Those go to our sales team.
+
+[Onboarding Specialist]: Transfer failure message?
+
+[Client]: "Our on-call team has been notified and will contact you within 30 minutes. If this is a gas emergency, please call your gas provider or 911 immediately."
+
+[Onboarding Specialist]: Office address?
+
+[Client]: 2247 Commerce Street, Dallas, TX 75201. Confirmed.
+
+[Onboarding Specialist]: Any other notes?
+
+[Client]: Yes — we do offer a 24/7 emergency service fee. Clara should mention that after-hours emergency service has an additional fee, without stating the specific amount.

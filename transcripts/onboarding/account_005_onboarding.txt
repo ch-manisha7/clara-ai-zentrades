@@ -1,0 +1,47 @@
+ONBOARDING CALL TRANSCRIPT - Account 005 - Sentinel Alarm Services
+Date: 2024-02-14
+Duration: 42 minutes
+
+[Onboarding Specialist]: Hi, let's finalize Sentinel's configuration today.
+
+[Client - Patricia Okafor, Operations Director]: Great. We've been waiting for this — our monitoring center is very unhappy with the overflow situation.
+
+[Onboarding Specialist]: Business hours — 8am to 6pm Monday-Friday Eastern time?
+
+[Client]: Confirmed. Monday through Friday, 8am to 6pm Eastern. No Saturday service.
+
+[Onboarding Specialist]: Main phone number?
+
+[Client]: 404-555-0229. That's what we want Clara to answer.
+
+[Onboarding Specialist]: Emergency routing. You mentioned the on-call tech changes weekly.
+
+[Client]: Yes. We'll update the on-call number weekly in your system. The current on-call is 404-555-0318. Backup is James Thornton at 404-555-0147. If James doesn't answer, send an alert to our monitoring center supervisor at alerts@sentinelalarm.com and tell the caller we've dispatched support.
+
+[Onboarding Specialist]: What's the timeout between transfer attempts?
+
+[Client]: 45 seconds on the primary, 45 seconds on James. After that, trigger the email alert.
+
+[Onboarding Specialist]: Emergency definitions — alarm won't silence, panel failure, smoke detected. Anything to add?
+
+[Client]: Also: a supervised device showing tamper, a communicator failure so the panel can't reach our monitoring center, and any situation where the customer says occupants may be in danger. We'd rather over-escalate than under-escalate.
+
+[Onboarding Specialist]: Non-emergency after hours?
+
+[Client]: Inspection scheduling, account questions, billing — take their name, number, account number if they have it, and the nature of their inquiry. Tell them our customer service team will call back next business day before noon.
+
+[Onboarding Specialist]: ServiceTrade integration?
+
+[Client]: Yes, we use ServiceTrade. Create jobs for all calls — emergency and non-emergency. For emergency calls, set priority to Critical. For non-emergency, set priority to Normal. Important constraint: never create a job in ServiceTrade for a call that turns out to be from a non-customer, like someone calling a wrong number.
+
+[Onboarding Specialist]: Makes sense. Transfer failure message?
+
+[Client]: "Our technical team has been alerted and will contact you within 15 minutes. If you believe there is an active fire emergency, please call 911 immediately. Your call and information have been logged."
+
+[Onboarding Specialist]: Office address — 892 Peachtree Street NE, Atlanta, GA 30309?
+
+[Client]: Correct.
+
+[Onboarding Specialist]: Final constraints?
+
+[Client]: Two things. First — do not route any call to our monitoring center's direct line. They handle alarm signals only, not customer calls. Second — if a customer calls saying their alarm is monitored by Sentinel but they've never set up their account, transfer to our customer onboarding line at 404-555-0201 during business hours.

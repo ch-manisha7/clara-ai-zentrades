@@ -1,0 +1,43 @@
+{
+    "phone_number": {
+        "old": "404-555-0147",
+        "new": "404-555-0229",
+        "confidence_change": "extracted -> confirmed",
+        "reason": "onboarding update"
+    },
+    "emergency_definition": {
+        "old": [
+            "Electrical panel failure"
+        ],
+        "new": [
+            "Electrical panel failure",
+            "Active fire"
+        ],
+        "confidence_change": "keyword_detected -> confirmed",
+        "reason": "onboarding update"
+    },
+    "after_hours_flow_summary": {
+        "old": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "new": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 404-555-0318 with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence_change": "generated -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.secondary_number": {
+        "old": "",
+        "new": "404-555-0147",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.primary_number": {
+        "old": "",
+        "new": "404-555-0318",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.timeout_seconds": {
+        "old": "",
+        "new": "45",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    }
+}

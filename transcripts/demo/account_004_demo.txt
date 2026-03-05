@@ -1,0 +1,33 @@
+DEMO CALL TRANSCRIPT - Account 004
+Date: 2024-01-22
+Duration: 20 minutes
+
+[Sales Rep]: Hi, glad you could make it. Tell me about your company.
+
+[Client]: Sure — we're Cascade Sprinkler Systems. We design, install, and service fire sprinkler systems for commercial properties. We're based in Seattle, Washington.
+
+[Sales Rep]: And how's your call volume?
+
+[Client]: Moderate. Maybe 20-30 calls a day. But the ones that matter most are the emergencies. A sprinkler head discharging in a commercial building is a big deal — water damage, business interruption, potential liability.
+
+[Sales Rep]: What hours is your office open?
+
+[Client]: 7am to 5pm, Pacific time, Monday through Friday.
+
+[Sales Rep]: What defines an emergency for Cascade?
+
+[Client]: Any active water flow, a system that's been impaired or taken offline, and any code violation that needs immediate attention before an inspection. We also consider an activated fire alarm tied to our systems an emergency.
+
+[Sales Rep]: Do you use ServiceTrade?
+
+[Client]: We do use ServiceTrade, yes. And this is important — we have a strict rule that sprinkler jobs should never be created automatically in ServiceTrade without a tech reviewing them first. We've had data issues in the past from automated job creation.
+
+[Sales Rep]: Noted, that's an important constraint. What about your emergency routing?
+
+[Client]: We have a phone tree. Office number first, then our service manager's cell, then our backup tech. We haven't formalized the timeout between attempts.
+
+[Sales Rep]: Where are you based?
+
+[Client]: Our office is at 3300 Airport Way South, Seattle, Washington 98134.
+
+[Sales Rep]: Perfect. Let me show you how Clara would handle one of those sprinkler emergency calls while respecting your ServiceTrade constraint...

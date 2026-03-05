@@ -1,0 +1,37 @@
+{
+    "phone_number": {
+        "old": "480-555-0192",
+        "new": "480-555-0104",
+        "confidence_change": "extracted -> confirmed",
+        "reason": "onboarding update"
+    },
+    "services_supported": {
+        "old": [
+            "Electrical"
+        ],
+        "new": [
+            "Electrical",
+            "Repair"
+        ],
+        "confidence_change": "keyword_detected -> confirmed",
+        "reason": "onboarding update"
+    },
+    "after_hours_flow_summary": {
+        "old": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 90s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "new": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 480-555-0192 with 90s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence_change": "generated -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.secondary_number": {
+        "old": "",
+        "new": "480-555-0263",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    },
+    "call_transfer_rules.primary_number": {
+        "old": "",
+        "new": "480-555-0192",
+        "confidence_change": "demo_assumed -> confirmed",
+        "reason": "onboarding update"
+    }
+}

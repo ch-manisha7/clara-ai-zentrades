@@ -1,0 +1,43 @@
+DEMO CALL TRANSCRIPT - Account 002
+Date: 2024-01-17
+Duration: 22 minutes
+
+[Sales Rep]: Welcome! Tell me about your company.
+
+[Client]: We're Arctic Air HVAC Solutions. Commercial and residential HVAC — installations, maintenance contracts, emergency repairs. We're based out of Dallas, Texas.
+
+[Sales Rep]: How's your current call handling set up?
+
+[Client]: We have a receptionist during the day but she's only here until 4:30. After that it goes to voicemail. We lose a lot of calls that way. People with no AC in Texas in the summer — they don't leave voicemails, they call the next company.
+
+[Sales Rep]: What are your normal business hours?
+
+[Client]: 7am to 4:30pm Monday through Friday, and we do have Saturday hours from 8am to noon for service calls. We're Central time.
+
+[Sales Rep]: What counts as an emergency for you?
+
+[Client]: No heat in winter is definitely an emergency, especially for elderly customers or if there's a baby in the house. No AC in summer when it's 105 degrees. A system that's making dangerous sounds or smells like burning. A refrigerant leak could be a health hazard too.
+
+[Sales Rep]: How do you handle those emergencies currently?
+
+[Client]: We have two on-call techs. Mike is the primary, then Donna as backup. If Mike doesn't answer within a few minutes, they try Donna. We've never really had a formal process — it's all manual right now.
+
+[Sales Rep]: Do you use any job management software?
+
+[Client]: We use ServiceTitan. All our dispatch runs through there.
+
+[Sales Rep]: And your office address?
+
+[Client]: 2247 Commerce Street, Dallas, Texas 75201.
+
+[Sales Rep]: Let me walk you through how Clara would handle an after-hours call from someone with no AC...
+
+[Demo interaction plays]
+
+[Client]: Okay I'm sold on the emergency flow. But what about my maintenance contract customers who call to schedule their seasonal tune-up? That's probably 60% of our daytime calls.
+
+[Sales Rep]: Clara handles that too — it collects their info, confirms what service they need, and either schedules it or routes to your team.
+
+[Client]: And if the transfer to the front desk fails?
+
+[Sales Rep]: It would offer to take a message and ensure a callback, and log everything to ServiceTitan.

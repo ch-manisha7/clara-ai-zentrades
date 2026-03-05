@@ -1,0 +1,8 @@
+{
+    "errors": [],
+    "warnings": [
+        "Emergency definition missing",
+        "No primary transfer number defined"
+    ],
+    "is_valid": true
+}

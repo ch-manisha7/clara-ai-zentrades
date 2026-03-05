@@ -1,0 +1,45 @@
+ONBOARDING CALL TRANSCRIPT - Account 001 - Patriot Fire Protection
+Date: 2024-02-05
+Duration: 35 minutes
+
+[Onboarding Specialist]: Welcome to your onboarding call, Mr. Hendricks. Let's lock down all the configuration details for Patriot Fire Protection.
+
+[Client - Greg Hendricks, Operations Manager]: Sounds good. Let's make sure we get this right.
+
+[Onboarding Specialist]: Let's start with business hours. You mentioned 8am to 5pm Monday through Friday Eastern time. Is that correct?
+
+[Client]: Yes, confirmed. Monday through Friday, 8am to 5:00pm Eastern Standard Time. We don't have Saturday hours.
+
+[Onboarding Specialist]: Great. And the main office number?
+
+[Client]: 704-555-0183. That's the number we want Clara to answer.
+
+[Onboarding Specialist]: Perfect. Now let's talk emergency definitions. You mentioned sprinkler flow, fire alarms — can you be more specific?
+
+[Client]: Okay so a true emergency for us is: active water discharge from a sprinkler head, a fire alarm that has triggered and cannot be silenced, a fire alarm panel showing trouble codes, or any customer who says there is visible smoke or fire. That's it. Anything else — inspection scheduling, service questions, extinguisher reorders — those are non-emergencies.
+
+[Onboarding Specialist]: Got it. And for emergency routing after hours, walk me through the exact steps.
+
+[Client]: First attempt is our main office line, 704-555-0183. If no answer within 45 seconds, transfer to our on-call technician at 704-555-0217. If that also fails after 45 seconds, the agent should tell the caller we are dispatching a technician and to stay on the line or we will call them back within 15 minutes.
+
+[Onboarding Specialist]: What about non-emergency after-hours calls?
+
+[Client]: For those, collect name, phone number, and a brief description of what they need. Tell them we'll call back first thing next business day. No need to attempt a transfer.
+
+[Onboarding Specialist]: ServiceTrade integration — any constraints?
+
+[Client]: Yes, important one. Create jobs in ServiceTrade for everything — emergency and non-emergency. But for sprinkler-related jobs, always tag them as "Requires Tech Review" before assigning. For extinguisher and alarm jobs, auto-assign is fine.
+
+[Onboarding Specialist]: Understood. What about the transfer timeout — if a transfer completely fails, what message should Clara give?
+
+[Client]: Say something like: "I wasn't able to reach our on-call team directly. I've logged your information and a Patriot Fire technician will contact you within 15 minutes. Please stay safe and call 911 if there is immediate danger."
+
+[Onboarding Specialist]: Good. And the office address is 4821 Prosperity Church Road, Charlotte, NC?
+
+[Client]: That's correct. Charlotte, North Carolina, 28269.
+
+[Onboarding Specialist]: Any other constraints or special rules?
+
+[Client]: One thing — we've had customers try to get pricing over the phone. Clara should not discuss pricing. Say that pricing is handled by our sales team during business hours.
+
+[Onboarding Specialist]: Noted. Let's review what we have and confirm before we finalize...

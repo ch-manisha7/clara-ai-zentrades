@@ -1,0 +1,98 @@
+{
+    "phone_number": {
+        "value": "404-555-0229",
+        "confidence": "confirmed"
+    },
+    "integration_constraints": {
+        "value": [
+            "Uses ServiceTrade for job management"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "services_supported": {
+        "value": [
+            "Fire Alarm",
+            "Inspection",
+            "Monitoring",
+            "Installation"
+        ],
+        "confidence": "confirmed"
+    },
+    "office_hours_flow_summary": {
+        "value": "Greet caller. Ask purpose of call. Collect name and callback number. Route or transfer to appropriate team member. Business hours: 8am to 6pm EST.",
+        "confidence": "confirmed"
+    },
+    "emergency_definition": {
+        "value": [
+            "Electrical panel failure",
+            "Active fire"
+        ],
+        "confidence": "confirmed"
+    },
+    "emergency_routing_rules": {
+        "value": "",
+        "confidence": "demo_assumed"
+    },
+    "account_id": "account_005",
+    "after_hours_flow_summary": {
+        "value": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 404-555-0318 with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence": "confirmed"
+    },
+    "questions_or_unknowns": [],
+    "call_transfer_rules": {
+        "retries": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "secondary_number": {
+            "value": "404-555-0147",
+            "confidence": "confirmed"
+        },
+        "primary_number": {
+            "value": "404-555-0318",
+            "confidence": "confirmed"
+        },
+        "timeout_seconds": {
+            "value": "45",
+            "confidence": "confirmed"
+        },
+        "failure_message": {
+            "value": "",
+            "confidence": "demo_assumed"
+        }
+    },
+    "office_address": {
+        "value": "892 Peachtree Street NE",
+        "confidence": "confirmed"
+    },
+    "business_hours": {
+        "days": {
+            "value": "Monday-Friday",
+            "confidence": "confirmed"
+        },
+        "timezone": {
+            "value": "EST",
+            "confidence": "confirmed"
+        },
+        "start": {
+            "value": "8am",
+            "confidence": "confirmed"
+        },
+        "end": {
+            "value": "6pm",
+            "confidence": "confirmed"
+        }
+    },
+    "company_name": {
+        "value": "Sentinel Alarm Services",
+        "confidence": "confirmed"
+    },
+    "notes": {
+        "value": "Extracted via rule-based (set ANTHROPIC_API_KEY for LLM extraction)",
+        "confidence": "confirmed"
+    },
+    "non_emergency_routing_rules": {
+        "value": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence": "confirmed"
+    }
+}

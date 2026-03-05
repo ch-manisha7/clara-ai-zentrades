@@ -1,0 +1,100 @@
+{
+    "phone_number": {
+        "value": "214-555-0094",
+        "confidence": "confirmed"
+    },
+    "integration_constraints": {
+        "value": [
+            "Uses ServiceTitan for dispatch"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "services_supported": {
+        "value": [
+            "HVAC",
+            "Maintenance",
+            "Installation",
+            "Repair"
+        ],
+        "confidence": "confirmed"
+    },
+    "office_hours_flow_summary": {
+        "value": "Greet caller. Ask purpose of call. Collect name and callback number. Route or transfer to appropriate team member. Business hours: 7am to 4:30pm CST.",
+        "confidence": "confirmed"
+    },
+    "emergency_definition": {
+        "value": [
+            "No heat",
+            "No air conditioning",
+            "Refrigerant leak detected",
+            "Carbon monoxide alarm triggered"
+        ],
+        "confidence": "confirmed"
+    },
+    "emergency_routing_rules": {
+        "value": "",
+        "confidence": "demo_assumed"
+    },
+    "account_id": "account_002",
+    "after_hours_flow_summary": {
+        "value": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 214-555-0331 with 60s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence": "confirmed"
+    },
+    "questions_or_unknowns": [],
+    "call_transfer_rules": {
+        "retries": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "secondary_number": {
+            "value": "214-555-0448",
+            "confidence": "confirmed"
+        },
+        "primary_number": {
+            "value": "214-555-0331",
+            "confidence": "confirmed"
+        },
+        "timeout_seconds": {
+            "value": "60",
+            "confidence": "confirmed"
+        },
+        "failure_message": {
+            "value": "",
+            "confidence": "demo_assumed"
+        }
+    },
+    "office_address": {
+        "value": "2247 Commerce Street",
+        "confidence": "confirmed"
+    },
+    "business_hours": {
+        "days": {
+            "value": "Monday-Friday",
+            "confidence": "extracted"
+        },
+        "timezone": {
+            "value": "CST",
+            "confidence": "confirmed"
+        },
+        "start": {
+            "value": "7am",
+            "confidence": "confirmed"
+        },
+        "end": {
+            "value": "4:30pm",
+            "confidence": "confirmed"
+        }
+    },
+    "company_name": {
+        "value": "Arctic Air HVAC Solutions",
+        "confidence": "confirmed"
+    },
+    "notes": {
+        "value": "Extracted via rule-based (set ANTHROPIC_API_KEY for LLM extraction)",
+        "confidence": "confirmed"
+    },
+    "non_emergency_routing_rules": {
+        "value": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence": "confirmed"
+    }
+}

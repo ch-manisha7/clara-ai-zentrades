@@ -1,0 +1,37 @@
+DEMO CALL TRANSCRIPT - Account 003
+Date: 2024-01-19
+Duration: 16 minutes
+
+[Sales Rep]: Thanks for joining us today. Tell me about your operation.
+
+[Client]: PowerGrid Electrical Contractors. We do commercial electrical work mostly — industrial facilities, office buildings, some multi-family residential. We're out of Phoenix, Arizona.
+
+[Sales Rep]: How large is your team?
+
+[Client]: About 35 electricians, 4 project managers, and a small office staff. Business has been growing fast and our office staff can't keep up with the inbound calls anymore.
+
+[Sales Rep]: What are your current business hours?
+
+[Client]: The office is open 6am to 3pm, Monday through Friday. Arizona doesn't do daylight saving so we're always Mountain Standard Time.
+
+[Sales Rep]: Interesting hours. Is that tied to your field crew schedules?
+
+[Client]: Exactly — our crews start at 6am. Project managers want calls first thing in the morning before they head out to sites.
+
+[Sales Rep]: What kinds of calls do you get?
+
+[Client]: A mix. New project inquiries, existing project updates, billing questions, and then emergency calls. An electrical emergency for us is a power outage at a commercial facility, exposed live wires, panel failures, or anything causing a fire risk.
+
+[Sales Rep]: Who handles the emergency calls?
+
+[Client]: We have one dedicated emergency line that rings to our on-call supervisor. The number is 480-555-0192. If they don't pick up within 90 seconds, it should go to our operations manager.
+
+[Sales Rep]: Do you use any software system for tracking jobs?
+
+[Client]: We use Procore for project management. But we don't use ServiceTrade or anything like that for field dispatch specifically.
+
+[Sales Rep]: Office address?
+
+[Client]: 1560 East Camelback Road, Phoenix, Arizona 85014.
+
+[Sales Rep]: Great. Let me demonstrate how Clara handles an emergency call outside your 6am-3pm window...

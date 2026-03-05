@@ -1,0 +1,153 @@
+{
+  "name": "Clara AI Pipeline",
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Trigger: New Transcript File",
+      "type": "n8n-nodes-base.filesystemTrigger",
+      "position": [100, 300],
+      "parameters": {
+        "path": "={{ $env.TRANSCRIPTS_DEMO }}",
+        "events": ["add"],
+        "fileFilter": "*_demo.txt"
+      },
+      "notes": "Watches for new demo transcript files in transcripts/demo/"
+    },
+    {
+      "id": "2",
+      "name": "Read Transcript",
+      "type": "n8n-nodes-base.readBinaryFiles",
+      "position": [300, 300],
+      "parameters": {
+        "fileSelector": "={{ $json.path }}"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Extract Account ID",
+      "type": "n8n-nodes-base.code",
+      "position": [500, 300],
+      "parameters": {
+        "jsCode": "const filename = $json.fileName;\nconst accountId = filename.replace('_demo.txt', '');\nreturn [{ json: { account_id: accountId, transcript: $binary.data.toString() } }];"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Pipeline A: LLM Extraction",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [700, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "headers": {
+          "x-api-key": "={{ $env.ANTHROPIC_API_KEY }}",
+          "anthropic-version": "2023-06-01",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "model": "claude-sonnet-4-20250514",
+          "max_tokens": 2000,
+          "system": "You are a data extraction assistant. Extract business configuration from call transcripts. Return only valid JSON.",
+          "messages": [{ "role": "user", "content": "Extract from: {{ $json.transcript }}" }]
+        },
+        "notes": "Calls Claude API for intelligent extraction. Falls back to rule-based if unavailable."
+      }
+    },
+    {
+      "id": "5",
+      "name": "Generate Agent Spec v1",
+      "type": "n8n-nodes-base.code",
+      "position": [900, 300],
+      "parameters": {
+        "jsCode": "// Transforms extracted memo into Retell Agent Draft Spec\n// See scripts/prompt_generator.py for full logic\nconst memo = JSON.parse($json.extracted);\nconst spec = generateAgentSpec(memo, 'v1');\nreturn [{ json: { memo, spec, account_id: $json.account_id } }];"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Save v1 Artifacts",
+      "type": "n8n-nodes-base.writeFile",
+      "position": [1100, 300],
+      "parameters": {
+        "operation": "write",
+        "fileName": "outputs/accounts/{{ $json.account_id }}/v1/memo.json",
+        "content": "={{ JSON.stringify($json.memo, null, 2) }}"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Create Task Tracker Item",
+      "type": "n8n-nodes-base.code",
+      "position": [1300, 300],
+      "parameters": {
+        "jsCode": "// Logs to task_log.json (mock Asana integration)\n// In production: POST to Asana API\nconst task = {\n  task_id: `CLARA-${Date.now()}`,\n  account_id: $json.account_id,\n  task_type: 'v1_generated',\n  status: 'complete',\n  created_at: new Date().toISOString()\n};\nreturn [{ json: task }];"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Trigger: Onboarding Transcript",
+      "type": "n8n-nodes-base.filesystemTrigger",
+      "position": [100, 600],
+      "parameters": {
+        "path": "={{ $env.TRANSCRIPTS_ONBOARDING }}",
+        "events": ["add"],
+        "fileFilter": "*_onboarding.txt"
+      },
+      "notes": "Pipeline B: Watches for onboarding transcripts"
+    },
+    {
+      "id": "9",
+      "name": "Load v1 Memo",
+      "type": "n8n-nodes-base.readBinaryFiles",
+      "position": [300, 600],
+      "parameters": {
+        "fileSelector": "outputs/accounts/{{ $json.account_id }}/v1/memo.json"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Extract + Merge → v2",
+      "type": "n8n-nodes-base.code",
+      "position": [700, 600],
+      "parameters": {
+        "jsCode": "// Runs LLM extraction on onboarding transcript\n// Merges with v1 memo using deep_merge logic\n// See scripts/merger.py for merge algorithm\nconst v1Memo = JSON.parse($json.v1_memo);\nconst onboardingData = $json.onboarding_extracted;\nconst [mergedMemo, changes] = deepMerge(v1Memo, onboardingData);\nreturn [{ json: { merged_memo: mergedMemo, changes } }];"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Generate Agent Spec v2",
+      "type": "n8n-nodes-base.code",
+      "position": [900, 600],
+      "parameters": {
+        "jsCode": "const spec = generateAgentSpec($json.merged_memo, 'v2');\nreturn [{ json: { spec, memo: $json.merged_memo, changes: $json.changes } }];"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Save v2 + Changelog",
+      "type": "n8n-nodes-base.code",
+      "position": [1100, 600],
+      "parameters": {
+        "jsCode": "// Saves: memo.json, agent_spec.json, changes.json, changes.md\n// All idempotent — hash-checked before overwrite"
+      }
+    }
+  ],
+  "connections": {
+    "1": { "main": [[{ "node": "2", "type": "main", "index": 0 }]] },
+    "2": { "main": [[{ "node": "3", "type": "main", "index": 0 }]] },
+    "3": { "main": [[{ "node": "4", "type": "main", "index": 0 }]] },
+    "4": { "main": [[{ "node": "5", "type": "main", "index": 0 }]] },
+    "5": { "main": [[{ "node": "6", "type": "main", "index": 0 }]] },
+    "6": { "main": [[{ "node": "7", "type": "main", "index": 0 }]] },
+    "8": { "main": [[{ "node": "9", "type": "main", "index": 0 }]] },
+    "9": { "main": [[{ "node": "10", "type": "main", "index": 0 }]] },
+    "10": { "main": [[{ "node": "11", "type": "main", "index": 0 }]] },
+    "11": { "main": [[{ "node": "12", "type": "main", "index": 0 }]] }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "description": "Clara AI Pipeline A (Demo→v1) and Pipeline B (Onboarding→v2)",
+    "version": "1.0.0"
+  }
+}

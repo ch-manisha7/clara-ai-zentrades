@@ -1,0 +1,43 @@
+ONBOARDING CALL TRANSCRIPT - Account 003 - PowerGrid Electrical Contractors
+Date: 2024-02-10
+Duration: 30 minutes
+
+[Onboarding Specialist]: Good morning. Let's lock down PowerGrid's configuration.
+
+[Client - Diana Chen, Office Manager]: Ready. I have everything in front of me.
+
+[Onboarding Specialist]: Business hours — 6am to 3pm, Monday through Friday, Mountain Standard Time?
+
+[Client]: Confirmed. We're in Arizona so we never change for daylight saving — always MST, UTC minus 7.
+
+[Onboarding Specialist]: Main phone number?
+
+[Client]: 480-555-0104. That goes to our front desk.
+
+[Onboarding Specialist]: Emergency routing. You mentioned a dedicated emergency line at 480-555-0192 for the on-call supervisor. Who is that currently?
+
+[Client]: That's a role phone — whoever is on-call carries it. Right now it's assigned to Ray Castillo. If Ray doesn't answer within 90 seconds, escalate to our operations manager, Sandra Yee, at 480-555-0263. If Sandra doesn't answer within 90 seconds, the agent should tell the caller to hold and send a dispatch notification via email to dispatch@powergridaz.com.
+
+[Onboarding Specialist]: Emergency definitions — power outage, live wires, panel failures, fire risk. Anything to add?
+
+[Client]: Also add: elevator failure due to electrical fault, data center power loss, and any situation at a healthcare facility. Those are automatic escalations regardless of time.
+
+[Onboarding Specialist]: Non-emergency after hours?
+
+[Client]: Take name, number, company name, and describe the project or issue. Tell them a project manager will call back by 7am next business day. We don't want customers left hanging overnight.
+
+[Onboarding Specialist]: You mentioned you use Procore. Any integration constraints?
+
+[Client]: We don't want Clara creating anything in Procore — that's project management, not dispatch. But if you have a way to send an email to our dispatch queue, that's fine. Use dispatch@powergridaz.com.
+
+[Onboarding Specialist]: Understood. Transfer failure message?
+
+[Client]: "I've notified our dispatch team and someone will reach you within 15 minutes. For immediate electrical hazards, please contact emergency services."
+
+[Onboarding Specialist]: Office address confirmed as 1560 East Camelback Road, Phoenix, AZ 85014?
+
+[Client]: Yes, that's correct.
+
+[Onboarding Specialist]: Any other special rules?
+
+[Client]: Two things. First — we do not take residential calls. If someone calls for a home repair, politely explain we only serve commercial clients and give them the number for the Arizona electrical contractor association: 602-555-0100. Second — project inquiry calls should be routed directly to our business development manager, not the front desk.

@@ -1,0 +1,97 @@
+{
+    "account_id": "account_003",
+    "company_name": {
+        "value": "PowerGrid Electrical Contractors",
+        "confidence": "extracted"
+    },
+    "business_hours": {
+        "days": {
+            "value": "Monday-Friday",
+            "confidence": "extracted"
+        },
+        "start": {
+            "value": "6am",
+            "confidence": "extracted"
+        },
+        "end": {
+            "value": "3pm",
+            "confidence": "extracted"
+        },
+        "timezone": {
+            "value": "MST",
+            "confidence": "extracted"
+        }
+    },
+    "office_address": {
+        "value": "1560 East Camelback Road",
+        "confidence": "extracted"
+    },
+    "phone_number": {
+        "value": "480-555-0192",
+        "confidence": "extracted"
+    },
+    "services_supported": {
+        "value": [
+            "Electrical"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "emergency_definition": {
+        "value": [
+            "Power outage at commercial facility",
+            "Live or exposed electrical wires",
+            "Electrical panel failure"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "emergency_routing_rules": {
+        "value": "",
+        "confidence": "demo_assumed"
+    },
+    "non_emergency_routing_rules": {
+        "value": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence": "extracted"
+    },
+    "call_transfer_rules": {
+        "primary_number": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "secondary_number": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "timeout_seconds": {
+            "value": "90",
+            "confidence": "extracted"
+        },
+        "retries": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "failure_message": {
+            "value": "",
+            "confidence": "demo_assumed"
+        }
+    },
+    "integration_constraints": {
+        "value": [
+            "Uses ServiceTrade for job management",
+            "Uses Procore for project management (not dispatch)"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "after_hours_flow_summary": {
+        "value": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 90s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence": "generated"
+    },
+    "office_hours_flow_summary": {
+        "value": "Greet caller. Ask purpose of call. Collect name and callback number. Route or transfer to appropriate team member. Business hours: 6am to 3pm MST.",
+        "confidence": "generated"
+    },
+    "questions_or_unknowns": [],
+    "notes": {
+        "value": "Extracted via rule-based (set ANTHROPIC_API_KEY for LLM extraction)",
+        "confidence": "demo_assumed"
+    }
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "task_id": "CLARA-0001",
+        "account_id": "account_001",
+        "company_name": "Patriot Fire Protection",
+        "task_type": "v1_generated",
+        "status": "v2_complete",
+        "notes": "v1 completeness: 65.0%. Warnings: 1",
+        "created_at": "2026-03-05T05:46:09.296561",
+        "updated_at": "2026-03-05T11:28:50.236470"
+    },
+    {
+        "task_id": "CLARA-0002",
+        "account_id": "account_001",
+        "company_name": "Patriot Fire Protection",
+        "task_type": "v2_updated",
+        "status": "complete",
+        "notes": "v2: 85.0%. 7 fields updated.",
+        "created_at": "2026-03-05T05:46:09.302634",
+        "updated_at": "2026-03-05T11:28:50.247275"
+    },
+    {
+        "task_id": "CLARA-0003",
+        "account_id": "account_002",
+        "company_name": "Arctic Air HVAC Solutions",
+        "task_type": "v1_generated",
+        "status": "v2_complete",
+        "notes": "v1 completeness: 60.0%. Warnings: 1",
+        "created_at": "2026-03-05T05:46:09.307421",
+        "updated_at": "2026-03-05T11:28:50.303140"
+    },
+    {
+        "task_id": "CLARA-0004",
+        "account_id": "account_002",
+        "company_name": "Arctic Air HVAC Solutions",
+        "task_type": "v2_updated",
+        "status": "complete",
+        "notes": "v2: 85.0%. 7 fields updated.",
+        "created_at": "2026-03-05T05:46:09.313768",
+        "updated_at": "2026-03-05T11:28:50.320469"
+    },
+    {
+        "task_id": "CLARA-0005",
+        "account_id": "account_003",
+        "company_name": "PowerGrid Electrical Contractors",
+        "task_type": "v1_generated",
+        "status": "v2_complete",
+        "notes": "v1 completeness: 75.0%. Warnings: 1",
+        "created_at": "2026-03-05T05:46:09.318447",
+        "updated_at": "2026-03-05T11:28:50.378530"
+    },
+    {
+        "task_id": "CLARA-0006",
+        "account_id": "account_003",
+        "company_name": "PowerGrid Electrical Contractors",
+        "task_type": "v2_updated",
+        "status": "complete",
+        "notes": "v2: 85.0%. 5 fields updated.",
+        "created_at": "2026-03-05T05:46:09.324194",
+        "updated_at": "2026-03-05T11:28:50.396653"
+    },
+    {
+        "task_id": "CLARA-0007",
+        "account_id": "account_004",
+        "company_name": "Cascade Sprinkler Systems",
+        "task_type": "v1_generated",
+        "status": "v2_complete",
+        "notes": "v1 completeness: 60.0%. Warnings: 2",
+        "created_at": "2026-03-05T05:46:09.328470",
+        "updated_at": "2026-03-05T11:28:50.430571"
+    },
+    {
+        "task_id": "CLARA-0008",
+        "account_id": "account_004",
+        "company_name": "Cascade Sprinkler Systems",
+        "task_type": "v2_updated",
+        "status": "complete",
+        "notes": "v2: 85.0%. 7 fields updated.",
+        "created_at": "2026-03-05T05:46:09.334429",
+        "updated_at": "2026-03-05T11:28:50.441110"
+    },
+    {
+        "task_id": "CLARA-0009",
+        "account_id": "account_005",
+        "company_name": "Sentinel Alarm Services",
+        "task_type": "v1_generated",
+        "status": "v2_complete",
+        "notes": "v1 completeness: 70.0%. Warnings: 1",
+        "created_at": "2026-03-05T05:46:09.338986",
+        "updated_at": "2026-03-05T11:28:50.480481"
+    },
+    {
+        "task_id": "CLARA-0010",
+        "account_id": "account_005",
+        "company_name": "Sentinel Alarm Services",
+        "task_type": "v2_updated",
+        "status": "complete",
+        "notes": "v2: 85.0%. 6 fields updated.",
+        "created_at": "2026-03-05T05:46:09.387872",
+        "updated_at": "2026-03-05T11:28:50.502517"
+    }
+]

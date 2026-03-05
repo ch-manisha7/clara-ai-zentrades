@@ -1,0 +1,101 @@
+{
+    "phone_number": {
+        "value": "704-555-0183",
+        "confidence": "confirmed"
+    },
+    "integration_constraints": {
+        "value": [
+            "Uses ServiceTrade for job management"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "services_supported": {
+        "value": [
+            "Fire Sprinkler",
+            "Fire Alarm",
+            "Inspection",
+            "Monitoring",
+            "Fire Extinguisher",
+            "Installation"
+        ],
+        "confidence": "confirmed"
+    },
+    "office_hours_flow_summary": {
+        "value": "Greet caller. Ask purpose of call. Collect name and callback number. Route or transfer to appropriate team member. Business hours: 8am to 5pm EST.",
+        "confidence": "confirmed"
+    },
+    "emergency_definition": {
+        "value": [
+            "Active sprinkler water discharge",
+            "Fire alarm triggered and cannot be silenced",
+            "Visible smoke reported"
+        ],
+        "confidence": "confirmed"
+    },
+    "emergency_routing_rules": {
+        "value": "",
+        "confidence": "demo_assumed"
+    },
+    "account_id": "account_001",
+    "after_hours_flow_summary": {
+        "value": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer to 704-555-0183 with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence": "confirmed"
+    },
+    "questions_or_unknowns": [],
+    "call_transfer_rules": {
+        "retries": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "secondary_number": {
+            "value": "704-555-0217",
+            "confidence": "confirmed"
+        },
+        "primary_number": {
+            "value": "704-555-0183",
+            "confidence": "confirmed"
+        },
+        "timeout_seconds": {
+            "value": "45",
+            "confidence": "confirmed"
+        },
+        "failure_message": {
+            "value": "",
+            "confidence": "demo_assumed"
+        }
+    },
+    "office_address": {
+        "value": "4821 Prosperity Church Road",
+        "confidence": "confirmed"
+    },
+    "business_hours": {
+        "days": {
+            "value": "Monday-Friday",
+            "confidence": "confirmed"
+        },
+        "timezone": {
+            "value": "EST",
+            "confidence": "confirmed"
+        },
+        "start": {
+            "value": "8am",
+            "confidence": "confirmed"
+        },
+        "end": {
+            "value": "5pm",
+            "confidence": "confirmed"
+        }
+    },
+    "company_name": {
+        "value": "Patriot Fire",
+        "confidence": "confirmed"
+    },
+    "notes": {
+        "value": "Extracted via rule-based (set ANTHROPIC_API_KEY for LLM extraction)",
+        "confidence": "confirmed"
+    },
+    "non_emergency_routing_rules": {
+        "value": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence": "confirmed"
+    }
+}

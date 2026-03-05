@@ -1,0 +1,97 @@
+{
+    "account_id": "account_005",
+    "company_name": {
+        "value": "Sentinel Alarm Services",
+        "confidence": "extracted"
+    },
+    "business_hours": {
+        "days": {
+            "value": "Monday-Friday",
+            "confidence": "extracted"
+        },
+        "start": {
+            "value": "8am",
+            "confidence": "extracted"
+        },
+        "end": {
+            "value": "6pm",
+            "confidence": "extracted"
+        },
+        "timezone": {
+            "value": "EST",
+            "confidence": "extracted"
+        }
+    },
+    "office_address": {
+        "value": "892 Peachtree Street NE",
+        "confidence": "extracted"
+    },
+    "phone_number": {
+        "value": "404-555-0147",
+        "confidence": "extracted"
+    },
+    "services_supported": {
+        "value": [
+            "Fire Alarm",
+            "Inspection",
+            "Monitoring",
+            "Installation"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "emergency_definition": {
+        "value": [
+            "Electrical panel failure"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "emergency_routing_rules": {
+        "value": "",
+        "confidence": "demo_assumed"
+    },
+    "non_emergency_routing_rules": {
+        "value": "Collect caller name, phone number, and description of request. Confirm team will follow up next business day.",
+        "confidence": "extracted"
+    },
+    "call_transfer_rules": {
+        "primary_number": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "secondary_number": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "timeout_seconds": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "retries": {
+            "value": "",
+            "confidence": "demo_assumed"
+        },
+        "failure_message": {
+            "value": "",
+            "confidence": "demo_assumed"
+        }
+    },
+    "integration_constraints": {
+        "value": [
+            "Uses ServiceTrade for job management"
+        ],
+        "confidence": "keyword_detected"
+    },
+    "after_hours_flow_summary": {
+        "value": "Greet caller and identify purpose. If emergency: collect name, phone, address immediately then attempt transfer with 45s timeout. If transfer fails: apologize and confirm callback within 15 minutes. If non-emergency: collect details and confirm next-business-day follow-up.",
+        "confidence": "generated"
+    },
+    "office_hours_flow_summary": {
+        "value": "Greet caller. Ask purpose of call. Collect name and callback number. Route or transfer to appropriate team member. Business hours: 8am to 6pm EST.",
+        "confidence": "generated"
+    },
+    "questions_or_unknowns": [],
+    "notes": {
+        "value": "Extracted via rule-based (set ANTHROPIC_API_KEY for LLM extraction)",
+        "confidence": "demo_assumed"
+    }
+}

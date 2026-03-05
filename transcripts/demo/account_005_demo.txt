@@ -1,0 +1,37 @@
+DEMO CALL TRANSCRIPT - Account 005
+Date: 2024-01-24
+Duration: 25 minutes
+
+[Sales Rep]: Thanks for your time today. What does your company do?
+
+[Client]: We're Sentinel Alarm Services. Fire alarm installation, monitoring, and inspection services for commercial clients. We're headquartered in Atlanta, Georgia.
+
+[Sales Rep]: How do you currently manage incoming calls?
+
+[Client]: It's a mess honestly. We have a monitoring center that runs 24/7, but they're only supposed to handle alarm signals — not inbound customer calls. But customers call our main number at all hours expecting someone to answer, and that rolls over to the monitoring center who aren't trained for customer service.
+
+[Sales Rep]: What are your office hours?
+
+[Client]: Our customer service team is 8am to 6pm, Monday through Friday. Eastern time. Sometimes Saturday morning if we're busy but not officially.
+
+[Sales Rep]: What kinds of calls come in after hours?
+
+[Client]: True emergencies — an alarm going off and they can't reach us through the monitoring portal, a system that's malfunctioning, a panel that's dead. Those need immediate attention. But we also get a lot of calls from customers wanting to schedule inspections or ask billing questions at 9pm, which is frustrating for everyone.
+
+[Sales Rep]: What's your emergency routing look like?
+
+[Client]: We have an on-call technician who rotates weekly. Their number changes each week so we'd need a way to update that. There's also a secondary backup, our technical manager, James Thornton, at 404-555-0147.
+
+[Sales Rep]: Do you use any field software?
+
+[Client]: We use ServiceTrade for our inspection scheduling and job management. We're pretty integrated with it.
+
+[Sales Rep]: What's your office address?
+
+[Client]: 892 Peachtree Street NE, Atlanta, Georgia 30309.
+
+[Sales Rep]: And when you say emergencies — what specifically triggers emergency routing?
+
+[Client]: An alarm that won't silence, a complete panel failure, smoke detected at a customer site when no alarm is being monitored, or any situation the customer describes as an immediate life-safety concern.
+
+[Sales Rep]: Understood. Let me show you how Clara would differentiate between someone calling at 10pm to schedule an inspection versus someone calling because their alarm won't stop...
