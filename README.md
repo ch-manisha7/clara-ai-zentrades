@@ -122,3 +122,6 @@ Onboarding Transcript
 | Engineering | 20/20 | Modular scripts, deep merge, versioning, changelogs |
 | Documentation | 15/15 | README, inline comments, architecture |
 | Bonus | +10 | Dashboard with 5 pages, download buttons, diff viewer |
+
+Live Demo:
+https://clara-ai-zentrades.streamlit.app
